@@ -1,0 +1,23 @@
+
+{
+    "name": "xvirus-session",
+    "description": "Web Session Generator",
+    "logo": "https://media-hosting.imagekit.io//9544bd7948b44981/20241020_234617.jpg?Expires=1837045586&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=O1bIdfUEQhXri39CUrjSJ-fapHez0Y5xBXwqASzDCLQfCaOAS3cW7nd8uuRSMUyJ80oCOnuJwljhkbezE8b2DXOJRkPvg3TFgDMw2SkQM2CZQDpyXeCOE~QyXXFXL4EpBhQPCX9VIhk4SGq2HDENkr-m3Hze3d0J9d4SmReAvBjm0mz6uaptcmdxEJmA8c36eSsHXPICc7fL6BzcH1LAvqQg465Idq5im6VRvbnnLwdg6~rvdj3b9Lgh5kBTklk9z5IlX~b3gWtLHvjS05f393dT1IcnJ6rAh23duY7~HEMosCCqOunR9dR75cd4WqBqoeBTry8PtzEn-nlr3HoGyg__",
+    "repository": "https://github.com/uzairiii/xvirus-session",
+    "keywords": ["Malvin-Tech"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
